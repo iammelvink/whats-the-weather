@@ -9,15 +9,18 @@ Find out how to build a simple Whats The Weather app. Author Melvin Kisten tackl
 ## Instructions
 1. Make sure you have these installed
 	- [Android Studio](https://developer.android.com/studio#downloads "Android Studio")
+
 2. Clone this repository into your local machine using the terminal (mac) or [Gitbash (PC)](https://git-scm.com/download/win "Gitbash (PC)")
 	
 	`> git clone https://github.com/iammelvink/whats-the-weather.git`
 3. Vist [Open Weather Map](https://openweathermap.org/ "Open Weather Map") and [Sign Up](https://home.openweathermap.org/users/sign_up "Sign Up") or [Sign In](https://home.openweathermap.org/users/sign_in "Sign In") if you already have an account 
-4. Copy your API key from [Open Weather Map](https://openweathermap.org/ "Open Weather Map") and paste at YOUR_API_KEY:
 
-```java
-    task.execute("http://api.openweathermap.org/data/2.5/weather?q=" + searchCity + "&APPID=YOUR_API_KEY").get();
-```
+4. Copy your API key from [Open Weather Map](https://openweathermap.org/ "Open Weather Map") and paste at file : 
+	`X:\whats-the-weather\app\src\main\java\com\iammelvink\whatstheweather\MainActivity.java` at the line where you see this `YOUR_API_KEY`:
+
+	```java
+		task.execute("http://api.openweathermap.org/data/2.5/weather?q=" + searchCity + "&APPID=YOUR_API_KEY").get();
+	```
 5. Run Android Studio and choose Open an existing Android Sudio project
 6. Press play button to run the app 
 
