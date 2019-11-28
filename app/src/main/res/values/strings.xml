@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Whats The Weather</string>
+    <string name="cloudsimage">cloudsImage</string>
+    <string name="enter_your_city_and_country_code">Enter your city and country code</string>
+    <string name="get_weather">Get Weather</string>
+</resources>
