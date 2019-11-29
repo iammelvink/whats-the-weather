@@ -16,7 +16,7 @@ Find out how to build a simple Whats The Weather app. Author Melvin Kisten tackl
 3. Vist [Open Weather Map](https://openweathermap.org/ "Open Weather Map") and [Sign Up](https://home.openweathermap.org/users/sign_up "Sign Up") or [Sign In](https://home.openweathermap.org/users/sign_in "Sign In") if you already have an account 
 
 4. Copy your API key from [Open Weather Map](https://openweathermap.org/ "Open Weather Map") and paste at file : 
-	`X:\whats-the-weather\app\src\main\java\com\iammelvink\whatstheweather\MainActivity.java` at the line where you see this `YOUR_API_KEY`:
+	`app\src\main\java\com\iammelvink\whatstheweather\MainActivity.java` at the line where you see this `YOUR_API_KEY`:
 
 	```java
 		task.execute("http://api.openweathermap.org/data/2.5/weather?q=" + searchCity + "&APPID=YOUR_API_KEY").get();
